@@ -1,5 +1,50 @@
 {
+  "name": "ags-component-library",
+  "version": "0.1.0",
+  "description": "Headless component library for AGS/Astal/gnim inspired by Radix UI",
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js"
+    },
+    "./components": {
+      "types": "./lib/components/index.d.ts",
+      "import": "./lib/components/index.js"
+    },
+    "./hooks": {
+      "types": "./lib/hooks/index.d.ts",
+      "import": "./lib/hooks/index.js"
+    },
+    "./utils": {
+      "types": "./lib/utils/index.d.ts",
+      "import": "./lib/utils/index.js"
+    },
+    "./primitives": {
+      "types": "./lib/primitives/index.d.ts",
+      "import": "./lib/primitives/index.js"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "ags",
+    "astal",
+    "gnim",
+    "gtk",
+    "components",
+    "headless",
+    "ui",
+    "widgets"
+  ],
   "dependencies": {
+    "ags": "*",
+    "gnim": "*"
+  },
+  "peerDependencies": {
     "ags": "*",
     "gnim": "*"
   },

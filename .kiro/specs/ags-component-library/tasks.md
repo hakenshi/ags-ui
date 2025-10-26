@@ -1,26 +1,26 @@
 # Implementation Plan
 
-- [ ] 1. Configurar estrutura do projeto e tooling
+- [x] 1. Configurar estrutura do projeto e tooling
   - Criar estrutura de diretórios (lib/components, lib/hooks, lib/utils, lib/primitives)
   - Configurar package.json com exports e types
   - Configurar tsconfig.json para biblioteca
   - Criar arquivo index.ts principal com exports
   - _Requirements: 9.1, 9.2, 10.1_
 
-- [ ] 2. Implementar utilitários base
-  - [ ] 2.1 Criar funções de formatação
+- [x] 2. Implementar utilitários base
+  - [x] 2.1 Criar funções de formatação
     - Implementar formatTime para data/hora
     - Implementar formatBytes para tamanhos
     - Implementar formatPercentage para porcentagens
     - Implementar formatDuration para durações
     - _Requirements: 7.1, 7.2, 7.3_
   
-  - [ ] 2.2 Criar utilitários de performance
+  - [x] 2.2 Criar utilitários de performance
     - Implementar função debounce
     - Implementar função throttle
     - _Requirements: 7.4, 7.5_
   
-  - [ ] 2.3 Criar utilitário clsx
+  - [x] 2.3 Criar utilitário clsx
     - Implementar composição de classes CSS
     - _Requirements: 7.6_
 
