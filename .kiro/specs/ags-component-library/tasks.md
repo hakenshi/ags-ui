@@ -24,13 +24,13 @@
     - Implementar composição de classes CSS
     - _Requirements: 7.6_
 
-- [ ] 3. Implementar primitivas de contexto e binding
-  - [ ] 3.1 Criar createContext helper
+- [x] 3. Implementar primitivas de contexto e binding
+  - [x] 3.1 Criar createContext helper
     - Implementar Provider e useContext
     - Adicionar validação de uso dentro de Provider
     - _Requirements: 1.3_
   
-  - [ ] 3.2 Criar createReactiveBinding helper
+  - [x] 3.2 Criar createReactiveBinding helper
     - Wrapper para createBinding do gnim
     - Tipagem TypeScript correta
     - _Requirements: 1.2, 9.2_
