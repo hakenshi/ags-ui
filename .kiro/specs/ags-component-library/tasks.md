@@ -36,50 +36,50 @@
     - _Requirements: 1.2, 9.2_
 
 - [ ] 4. Implementar hooks para serviços Astal
-  - [ ] 4.1 Implementar useBattery hook
+  - [x] 4.1 Implementar useBattery hook
     - Integrar com AstalBattery
     - Retornar percentage, charging, timeRemaining, available
     - Adicionar graceful degradation
     - _Requirements: 6.1_
   
-  - [ ] 4.2 Implementar useNetwork hook
+  - [x] 4.2 Implementar useNetwork hook
     - Integrar com AstalNetwork
     - Retornar wifi e wired state
     - Expor lista de access points
     - _Requirements: 6.2_
   
-  - [ ] 4.3 Implementar useAudio hook
+  - [x] 4.3 Implementar useAudio hook
     - Integrar com AstalWp
     - Retornar speaker e microphone state
     - Fornecer setVolume e toggleMute
     - _Requirements: 6.3_
   
-  - [ ] 4.4 Implementar useHyprland hook
+  - [x] 4.4 Implementar useHyprland hook
     - Integrar com AstalHyprland
     - Retornar workspaces, windows, active states
     - Fornecer focusWorkspace
     - _Requirements: 6.4_
   
-  - [ ] 4.5 Implementar useNotifications hook
+  - [x] 4.5 Implementar useNotifications hook
     - Integrar com AstalNotifd
     - Retornar lista de notificações
     - Fornecer dismiss e dismissAll
     - _Requirements: 6.5_
 
-- [ ] 5. Implementar componentes básicos
-  - [ ] 5.1 Implementar Button component
+- [x] 5. Implementar componentes básicos
+  - [x] 5.1 Implementar Button component
     - Criar componente com onClick, disabled
     - Adicionar data attributes (data-disabled)
     - Suportar asChild pattern
     - _Requirements: 1.1, 1.2, 1.4_
   
-  - [ ] 5.2 Implementar Input component
+  - [x] 5.2 Implementar Input component
     - Criar campo de entrada com value, onValueChange
     - Suportar controlled/uncontrolled
     - Adicionar data attributes (data-disabled, data-invalid)
     - _Requirements: 1.1, 1.2_
   
-  - [ ] 5.3 Implementar Label component
+  - [x] 5.3 Implementar Label component
     - Criar label com htmlFor
     - _Requirements: 1.1_
 
